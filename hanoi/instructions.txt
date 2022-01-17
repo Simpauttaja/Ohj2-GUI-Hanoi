@@ -1,0 +1,43 @@
+TOWER OF HANOI!
+- Idea is to get all discs from the first pin (A)
+  to either second (B) or third (C) pin in such 
+  fashion, that starting from bottom 
+  discs are ordered from widest to smallest.
+
+- You can only move 1 disc at a time. You
+  can only move the topmost disc from each pin.
+
+- You can never even temporarily place a bigger 
+  disc on top of a smaller disc. Illegal moves
+  are prevented.
+
+HOW IT WORKS:
+- After running the program, enter the desired
+  amount of discs (1-12) and hit ENTER/RETURN.
+
+- You can make moves by either clicking 1 of the
+  6 push buttons OR by entering your command 
+  (for example "AB" or "cA") and hitting
+  ENTER/RETURN.
+
+- If 1-12 discs does not satisfy the "n"-requirement,
+  you can alter the maximum accepted value by going
+  to mainwindow.hh and altering "const int MAX_DISKS"
+  in the private section.
+
+ADDITIONAL FEATURES in hopes of extra points:
+- Disks change color, when shifted to another
+  peg. Inside program code I call them pins,
+  please bear with me.
+
+- At any given time you're able to restart the
+  game without restarting the program. Even after
+  finishing a game.
+
+- The number of moves made & difference to
+  minimum required moves is displayed.
+
+- Has 2 ways of moving the disks - pushbuttons
+  and text command.
+
+
